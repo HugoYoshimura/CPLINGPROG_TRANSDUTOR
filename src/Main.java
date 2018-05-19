@@ -8,6 +8,8 @@ public class Main {
 		
 		String input = scan.nextLine();
 		
+		input += "#";
+		
 		Transdutor obj = new Transdutor(input);
 		
 	}
