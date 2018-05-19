@@ -8,6 +8,7 @@ public class Main {
 		
 		String input = scan.nextLine();
 		
+		// No final da texto, inserir '#' para indicar que o vetor acabou.
 		input += "#";
 		
 		Transdutor obj = new Transdutor(input);
